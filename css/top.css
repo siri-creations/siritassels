@@ -1,0 +1,67 @@
+#top{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#top h1{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    /* margin: 0% auto; */
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: "Roboto Slab", serif  ;
+    background: linear-gradient(TO RIGHT,#BF953F,#FCF6Ba,#b38728, #fbf5b7,#aa771c);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#top button{
+    /* height: inherit; */
+   position: absolute;
+   left: 250px;
+   top:450px;
+   /* top:800px; */
+    /* margin: 0% auto; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    font-size: 12px;
+    /* text-align: left; */
+    padding: 10px 20px;
+    font-weight: 1000;
+    font-family: "Roboto Slab", serif  ;
+    background: linear-gradient(TO RIGHT,#BF953F,#FCF6Ba,#b38728, #fbf5b7,#aa771c);
+      
+}
+#top button:hover{
+    background: #ff3377;
+    color: white;
+    transition-duration: 1s;
+    
+}
+@media screen and (max-width:720px){
+   #top h1{
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+    top:20px;
+    /* margin-top: -100px; */
+    margin-top: 0px;
+   }
+   #top button{
+    left:35px;
+    top:340px;
+   }
+    
+}
+
+@media screen and (max-width:420px){
+    #top{
+        /* height: 300px; */
+        font-size: 1px;
+    }
+    
+}

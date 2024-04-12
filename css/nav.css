@@ -1,0 +1,104 @@
+@import url("./index.css");
+#topnav #nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color:var(--nav-top); */
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 35px;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  /* gap:0px; */
+}
+#topnav p{
+  font-family:  "Roboto Slab", serif  ;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+  color: #BFA100;
+  text-decoration:underline;
+
+}
+#topnav img{
+  height: 54px;
+  width: 100px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+#topnav ol{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* font-size: 60px; */
+}
+#topnav i{
+  font-size: 35px;
+
+}
+/* -================================== */
+@media screen and (max-width:720px) {
+  
+  #topnav p{
+    font-size: 14px;
+  }
+  #topnav ol{
+    gap:8px;
+  }
+  #bottomnav li{
+    display: flex;
+    flex-direction: column;
+    /* gap:10px; */
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 0px 30px;
+    border-radius: 10%;
+  }
+}
+/* ================================ */
+#bottomnav{
+
+bottom: 0px;
+position: fixed;
+width: 100%;
+background-color: #D20062;
+z-index: 10;
+
+  
+}
+#bottomnav ol{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0%;
+}
+
+#bottomnav li{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 0px 30px;
+  border-radius: 10%;
+}
+#bottomnav li p{
+  font-size: 20px;
+}
+#bottomnav ol li:hover{
+  background-color:#C4E4FF;
+  color: #D20062;
+
+}
+#bottomnav li i{
+  font-size: 30px;
+}
